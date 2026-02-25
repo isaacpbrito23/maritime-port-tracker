@@ -9,7 +9,7 @@
 
 #The process:
 
-1. The extract: Reaches out to MyShipTracking API API using secure header authentication to
+1. The extract: Reaches out to MyShipTracking API using secure header authentication to
    download a raw JSON payload of all vessels currently docked or anchored at the port.
 2. The Transform: Parses the JSON array, filtering out unnecessary data while keeping only the data I want
    (Time of scan, vessel name, MMSI, IMO, vessel type, year built, length and flag). It also injects a custom `datetime` stamp and a
