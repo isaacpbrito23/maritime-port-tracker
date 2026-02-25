@@ -4,6 +4,7 @@
 #Overview
 
 ##This project is an ETL (Extrat, Transform, Load) pipeline that monitors live maritime traffic at the port of Suape (BRSUA) in Brazil.
+
 ##It connects to the MyShipTracking REST API to fetch real-time vessel telemetry, cleans and formats the data, 
 ##and logs it into a continuously growing historical CSV database. 
 
