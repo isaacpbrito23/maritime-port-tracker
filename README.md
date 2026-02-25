@@ -25,6 +25,7 @@
 5. Environment: Ubuntu Linux VM
 
 #Data Schema
+
 The output database (`BRSUA_port_log.csv`) tracks the following columns:
 
 1. `scan_time`: Local timestamp of the API ping (YYYY-MM-DD HH:MM:SS)
