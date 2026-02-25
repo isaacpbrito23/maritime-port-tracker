@@ -18,11 +18,11 @@
    `BRSUA_port_log.csv` without overwriting historical records or duplicating headers.
 
 #Technology Stack
--Language: Python 3
--Data manipulation: pandas
--Network ops: Requests (REST APIs, JSON parsing)
--Automation: Linux `cron` (Scheduled to run automatically at the top of every hour)
--Environment: Ubuntu Linux VM
+1. Language: Python 3
+2. Data manipulation: pandas
+3. Network ops: Requests (REST APIs, JSON parsing)
+4. Automation: Linux `cron` (Scheduled to run automatically at the top of every hour)
+5. Environment: Ubuntu Linux VM
 
 #Data Schema
 The output database (`BRSUA_port_log.csv`) tracks the following columns:
